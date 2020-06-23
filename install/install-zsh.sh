@@ -2,6 +2,8 @@
 
 sudo apt-get -y install git wget zsh
 
+chsh -s /bin/zsh
+
 if [ ! -d ~/.oh-my-zsh -o ! -f ~/.zshrc ]; then
     sh -c "$(wget https://gitee.com/jiejieTop/ohmyzsh/raw/master/tools/install.sh -O -)"
 fi
