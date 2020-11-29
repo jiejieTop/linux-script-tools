@@ -14,6 +14,6 @@ git clone git://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-
 
 git clone https://github.com/paulirish/git-open.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/git-open
 
-sed -i 's/plugins=(git)/plugins=(z git sudo extract vi-mode git-open safe-paste command-not-found colored-man-pages zsh-syntax-highlighting)/g' ~/.zshrc
+sed -i 's/plugins=(git)/plugins=(z git sudo extract vi-mode git-open safe-paste command-not-found colored-man-pages zsh-syntax-highlighting vscode zsh-autosuggestions)/g' ~/.zshrc
 
 # source ~/.zshrc
